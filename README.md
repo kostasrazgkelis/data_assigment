@@ -20,12 +20,11 @@ Implementation of the environment:
           copy the data inside the HDFS. 
           
   Step 4: Finally, we have our system and data ready and running. We need to open our Jupyter Notebook which runs at "localhost:8888" HTTP address. This url is provided in the 
-          logs when we first start our Jupyter service. Inside the Git repository, we provide a Jupyter Notebook file which has all the PySpark commands to read and clean the data 
-          like it is required in the assignment task. In the end, we save the output file in the HDFS and it is ready to use SQL queries to take the information we need.
+          logs when we first start our Jupyter service. Inside the Git repository, we provide a Jupyter Notebook file ( Spark-Commands.ipynb ) which has all the PySpark commands 
+          to read and clean the data like it is required in the assignment task. In the end, we save the output file in the HDFS and it is ready to use SQL queries to take the 
+          information we need.
             
-          
- 
- 
+         
  
 PS: All the commands and methods are used from the pyspark.sql module except the method that saves the dataframe into a parquet which it led to many errors. After some time where 
 I could not find the solution, I decided in order to finish this task to use the pandas module.
